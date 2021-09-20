@@ -88,7 +88,6 @@ function wrapGifts(gifts) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
     i++; // the iteration moves INSIDE the body of the loop!
   }
-
   return gifts;
 }
 
@@ -99,3 +98,16 @@ wrapGifts(gifts);
 // => ["teddy bear", "drone", "doll"]
 
 //Using a while loop enables us to check conditions that aren't based on a counter.
+
+//---------------------------------------------------------------------------------
+//Assignment- Build a while loop
+
+function countDown() {
+    let countDown = 10;
+    while ( countDown > 0 ) {
+        console.log(countDown--);
+    }
+    return countDown;
+}
+
+countDown(10);
