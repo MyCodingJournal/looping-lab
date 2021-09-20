@@ -61,3 +61,14 @@ for (let countup = 0; countup < 10; countup++) {<br>
 If you're feeling a bit lost about when to use a for vs. a while loop, take a deep breath. Most of the time, a regular for loop will suffice. It's by far the most common looping construct in JavaScript. A general heuristic for choosing which loop to use is to first try a for loop. If that doesn't serve your purposes, then go ahead and try a while loop. Also, remember that you can always refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"> documentation on these loops</a> at any time.
 
 ##### Just don't forget: with while, make sure you are updating the condition on each loop so that the loop eventually terminates!
+
+##### Resources
+
+##### Codecademy
+- <a href="https://www.codecademy.com/articles/glossary-javascript#loops">for loop</a> 
+- <a href="https://www.codecademy.com/articles/glossary-javascript#loops">while loop</a>
+
+##### MDN
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for">for loop</a> 
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while">while loop</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Loops and iteration</a>
